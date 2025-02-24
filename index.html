@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeetCode Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainBody">
+      <div class="parent">
+        <header>
+          <h1 id="heading">LeetMetric</h1>
+          <p id="paraOne">Enter your username below:</p>
+          <input
+            type="text"
+            id="inputUsername"
+            placeholder="Enter your username"
+          />
+          <button id="searchButton">Search</button>
+          <button id="clearButton">Clear</button>
+        </header>
+        <main id="mainHTML">
+          <div class="parentMain">
+            <div class="circle" id="easyCircle">
+              <span class="spanText" id="easyText">Easy</span>
+            </div>
+            <div class="circle" id="mediumCircle">
+              <span class="spanText" id="mediumText">Medium</span>
+            </div>
+            <div class="circle" id="hardCircle">
+              <span class="spanText" id="hardText">Hard</span>
+            </div>
+          </div>
+        </main>
+        <footer class="footerMain">
+          <div class="otherData">
+            <p class="submissionText" id="textFooter1">Acceptance Rate</p>
+            
+          </div>
+          <div class="otherData">
+            <p class="submissionText" id="textFooter2"> Contribution Points</p>
+           
+          </div>
+          <div class="otherData">
+            <p class="submissionText" id="textFooter3">Ranking</p>
+            
+          </div>
+          <div class="otherData">
+            <p class="submissionText" id="textFooter4"> Reputation</p>
+           
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
